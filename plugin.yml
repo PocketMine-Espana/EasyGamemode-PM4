@@ -1,0 +1,19 @@
+name: EasyGamemode
+
+main: GM\Main
+
+api: 4.0.0
+
+version: 1.0.0
+
+author: SexxRetacted
+
+commands:
+  gm:
+    description: "Gamemode Menu"
+    permission: gm.cmd 
+    
+permissions:
+  gm.cmd:
+    description: "Gamemode Permission"
+    default: op
