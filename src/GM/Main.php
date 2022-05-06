@@ -37,7 +37,7 @@ class Main extends P implements L {
   }
   
   public function getGamemodes(Player $pl){
-    $form = new SimpleForm(function (Player $pm, int $data = null){
+    $form = new SimpleForm(function (Player $pl, int $data = null){
       if($data === null){
         return true;
       }
